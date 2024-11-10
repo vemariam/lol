@@ -6,7 +6,7 @@ class Isvisable extends ChangeNotifier{
   bool isToggled = false;
   void Visable(){
       txt = isToggled? "Hide" : "Show";
-      txtC = isToggled? "Is Visable" : " ";
+      txtC = isToggled? "is Visable" : " ";
       isToggled = !isToggled;
       notifyListeners();
   }
