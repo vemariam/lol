@@ -5,7 +5,7 @@ class Isvisable extends ChangeNotifier{
   String txtC = "";
   bool isToggled = false;
   void Visable(){
-      txt = isToggled? "Hide" : "Show";
+      txt = isToggled? "hide" : "Show";
       txtC = isToggled? "is Visable" : " ";
       isToggled = !isToggled;
       notifyListeners();
